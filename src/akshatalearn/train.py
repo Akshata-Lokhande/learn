@@ -2,7 +2,7 @@ from akshatalearn.model import Model
 from akshatalearn.data import MyDataset
 
 def train():
-    dataset = MyDataset("data/raw")
+    dataset = MyDataset("corruptmnist_v1")
     model = Model()
     # add rest of your training code here
 
